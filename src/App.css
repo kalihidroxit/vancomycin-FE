@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.input-container {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start */
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.input-label {
+  width: 200px;
+  text-align: left;
+}
+
+.input-field {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.form-chart-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart-container {
+    width: 100%; /* adjust as needed */
+    height: 10%; /* adjust as needed */
+    margin-bottom: 20px;
+}
+
+.chart-wrapper {
+  display: flex;
+  flex-direction: column; /* Change to row if you want the charts side by side */
+  height: 10%; /* Set a specific height */
+  width: 50%;
+}
